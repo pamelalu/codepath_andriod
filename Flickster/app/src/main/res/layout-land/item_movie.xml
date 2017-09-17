@@ -25,18 +25,17 @@
         android:layout_marginStart="10dp"
         android:layout_toEndOf="@+id/ivMovieImage"
         android:layout_toRightOf="@+id/ivMovieImage"
-        android:textColor="@android:color/white"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white"
         tools:text="It" />
 
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvTitle"
         android:layout_alignLeft="@+id/tvTitle"
         android:layout_alignStart="@+id/tvTitle"
+        android:layout_below="@+id/tvTitle"
         android:textColor="@android:color/darker_gray"
         tools:text="In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise." />
-
 </RelativeLayout>
